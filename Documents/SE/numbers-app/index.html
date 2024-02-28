@@ -59,6 +59,14 @@
             const result = await response.json();
             document.getElementById("primeCheckResult").innerText = result;
         }
+
+        async function cipher() {
+            const numberToTest = document.getElementById("TextToCipher");            
+            let plainText = numberToTest.value;            
+            const response = await fetch("??" + plainText);
+            const result = await response.json();
+            document.getElementById("cipher").innerText = result;
+        }
     </script>
 </body>
 </html>
