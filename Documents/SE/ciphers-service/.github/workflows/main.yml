@@ -1,4 +1,4 @@
-name: Run The Tests
+name: Run The Tests, Build the image
 
 on:
   push:
